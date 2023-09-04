@@ -20,4 +20,13 @@ public class Main {
         double miles = km * milesToKm;
         System.out.printf("%f km = %f miles", km, miles);
     }
+
+    public static void milesToKilometers() {
+        Scanner sc = new Scanner(System.in);
+        final double kmToMiles = 1.60934;
+        System.out.print("Enter the number of miles: ");
+        double miles = sc.nextDouble();
+        double km = miles * 1.60934;
+        System.out.printf("%f miles = %f km", miles, km);
+    }
 }
